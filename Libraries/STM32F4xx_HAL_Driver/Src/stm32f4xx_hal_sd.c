@@ -2090,7 +2090,6 @@ HAL_StatusTypeDef HAL_SD_ConfigWideBusOperation(SD_HandleTypeDef *hsd, uint32_t 
     else if(WideMode == SDIO_BUS_WIDE_4B)
     {
       errorstate = SD_WideBus_Enable(hsd);
-      
       hsd->ErrorCode |= errorstate;
     }
     else if(WideMode == SDIO_BUS_WIDE_1B)

@@ -81,7 +81,7 @@ extern "C" {
 #define HAL_RTC_MODULE_ENABLED
 #endif
 /* #define HAL_SAI_MODULE_ENABLED      */
-/* #define HAL_SD_MODULE_ENABLED       */
+#define HAL_SD_MODULE_ENABLED
 #ifdef RT_USING_SPI
 #define HAL_SPI_MODULE_ENABLED
 #endif
